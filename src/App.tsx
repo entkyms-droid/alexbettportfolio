@@ -281,6 +281,10 @@ const SectionHeading = ({ title, subtitle, light = false }: { title: string, sub
 export default function App() {
   const [activeSuite, setActiveSuite] = useState(suites[0].id);
 
+  useEffect(() => {
+    document.title = "Alex Bett | Elite Technical Portfolio";
+  }, []);
+
   return (
     <div className="min-h-screen">
       <Navbar />
