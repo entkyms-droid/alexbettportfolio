@@ -68,7 +68,7 @@ const suites: Suite[] = [
         desc: "The central hub for digital transformation in technical vocational education, bridging the gap between traditional learning and modern tech.",
         icon: <Cpu className="text-brand-blue" />,
         tags: ["Core Brand", "Digital Hub", "Education"],
-        image: "https://picsum.photos/seed/tvet-hub/800/500",
+        image: "https://lh3.googleusercontent.com/d/1xK9tI7Xgsuhx7KGfShn6zXBI4dvWe9eo",
         link: "https://smart-tve-tsystems.vercel.app/"
       },
       {
@@ -84,7 +84,7 @@ const suites: Suite[] = [
         desc: "Smart school admission portal with AI-powered parent assistance, streamlining the enrollment process for modern educational institutions.",
         icon: <School className="text-brand-blue" />,
         tags: ["EdTech", "AI Assistant", "Portal"],
-        image: "https://picsum.photos/seed/greenview/800/500",
+        image: "https://lh3.googleusercontent.com/d/1xy2MVZiyeYs2ftglT6MpQjAt5G_sK8mA",
         link: "https://greenviewacademyravine.vercel.app/"
       }
     ]
@@ -134,11 +134,11 @@ const suites: Suite[] = [
         link: "https://thekerioriverlodge.vercel.app/"
       },
       {
-        title: "Vinny Safaris",
-        desc: "Tourism and travel booking portal for East African safari experiences, offering seamless adventure planning.",
-        icon: <Compass className="text-brand-amber" />,
-        tags: ["Safari", "Travel", "Booking"],
-        image: "https://picsum.photos/seed/safari/800/500",
+        title: "Vinny Motors",
+        desc: "Automotive engineering and motorsports portal for East African vehicle enthusiasts and services.",
+        icon: <Car className="text-brand-amber" />,
+        tags: ["Automotive", "Motorsports", "Services"],
+        image: "https://lh3.googleusercontent.com/d/1BpnyMSwHEECSuQmFhcQDd_9W8PjiNR96",
         link: "https://vinnysafaris.vercel.app/"
       },
       {
@@ -146,7 +146,7 @@ const suites: Suite[] = [
         desc: "Agri-business e-commerce and certified seedling nursery management, supporting sustainable agriculture and hospitality.",
         icon: <ShoppingBag className="text-brand-amber" />,
         tags: ["Agri-Business", "E-commerce", "Nursery"],
-        image: "https://picsum.photos/seed/cheptebo/800/500",
+        image: "https://lh3.googleusercontent.com/d/1gGW4WiXTzBDnUhcwnhZJcBvScemIxsMj",
         link: "https://cheptebordc.vercel.app/"
       }
     ]
@@ -282,7 +282,7 @@ export default function App() {
   const [activeSuite, setActiveSuite] = useState(suites[0].id);
 
   useEffect(() => {
-    document.title = "Alex Bett | Elite Technical Portfolio";
+    document.title = "Alex Bett | Technical Solutions Architect";
   }, []);
 
   return (
@@ -899,13 +899,13 @@ export default function App() {
                 </div>
 
                 <div className="flex gap-4 mt-12">
-                  <a href="#" className="w-12 h-12 rounded-xl bg-white/10 flex items-center justify-center text-white hover:bg-brand-blue transition-all hover:scale-110">
+                  <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-xl bg-white/10 flex items-center justify-center text-white hover:bg-brand-blue transition-all hover:scale-110">
                     <Linkedin size={20} />
                   </a>
-                  <a href="#" className="w-12 h-12 rounded-xl bg-white/10 flex items-center justify-center text-white hover:bg-brand-purple transition-all hover:scale-110">
+                  <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-xl bg-white/10 flex items-center justify-center text-white hover:bg-brand-purple transition-all hover:scale-110">
                     <Github size={20} />
                   </a>
-                  <a href="#" className="w-12 h-12 rounded-xl bg-white/10 flex items-center justify-center text-white hover:bg-brand-amber transition-all hover:scale-110">
+                  <a href="#" target="_blank" rel="noopener noreferrer" className="w-12 h-12 rounded-xl bg-white/10 flex items-center justify-center text-white hover:bg-brand-amber transition-all hover:scale-110">
                     <ExternalLink size={20} />
                   </a>
                 </div>
@@ -953,8 +953,8 @@ export default function App() {
             © {new Date().getFullYear()} Alex Bett. Built with <span className="text-brand-blue font-bold">React</span> & <span className="text-brand-purple font-bold">Gemini AI</span>.
           </p>
           <div className="flex gap-8">
-            <a href="#" className="text-sm font-bold text-slate-400 hover:text-brand-blue transition-colors">Privacy Policy</a>
-            <a href="#" className="text-sm font-bold text-slate-400 hover:text-brand-blue transition-colors">Terms of Service</a>
+            <a href="#" target="_blank" rel="noopener noreferrer" className="text-sm font-bold text-slate-400 hover:text-brand-blue transition-colors">Privacy Policy</a>
+            <a href="#" target="_blank" rel="noopener noreferrer" className="text-sm font-bold text-slate-400 hover:text-brand-blue transition-colors">Terms of Service</a>
           </div>
         </div>
       </footer>
